@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamak Memory Mix-Up PoC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Mamak Memory Mix-Up</h1>
+
+        <div class="game-area">
+            <div class="game-elements">
+                <div id="customer-area">
+                    <img id="customer-sprite" src="images/customer-upin.jpg" alt="Customer" class="hidden">
+                    <div id="order-speech-bubble" class="hidden">
+                        <p id="order-text"></p>
+                    </div>
+                </div>
+
+                <div id="menu-area">
+                    <div class="menu-item" data-item="roti_canai">
+                        <img src="images/food-roti-canai.jpg" alt="Roti Canai">
+                        <span>Roti Canai</span>
+                    </div>
+                    <div class="menu-item" data-item="teh_o_ais">
+                        <img src="images/food-teh-o-ais.jpg" alt="Teh O Ais">
+                        <span>Teh O Ais</span>
+                    </div>
+                    <div class="menu-item" data-item="nasi_lemak">
+                        <img src="images/food-nasi-lemak.jpg" alt="Nasi Lemak">
+                        <span>Nasi Lemak</span>
+                    </div>
+                    </div>
+
+                <div id="order-slip-area">
+                    <h2>Your Order:</h2>
+                    <div id="selected-items">
+                        </div>
+                    <button id="confirm-order-btn">Confirm Order</button>
+                </div>
+            </div><div id="game-feedback"></div>
+            <div id="score-display">Score: 0</div>
+            <button id="start-game-btn">Start Game</button>
+        </div></div><script src="script.js"></script>
+</body>
+</html>
